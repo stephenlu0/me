@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SLU website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap">
+</head>
+<body>
+    <nav>
+        <a class="logo" href="index.html">Stephen.</a>
+        <div class="nav-items">
+            <a href="index.html">Home</a>
+            <a href="about.html" >About</a>
+            <a href="contact.html" class="active">Contact</a>
+        </div>
+    </nav>
+    <div class="contact-container">
+        <form action="https://api.web3forms.com/submit" class="contact-left" method="POST">
+            <div class="contact-left-title">
+                <h2>Get in touch</h2>
+                <hr>
+            </div>
+            <input type="hidden" name="access_key" value="48cd8933-4c5f-4404-b1ac-6cf9fa54a726">
+            <input type="text" name="name" placeholder="Your Name" class="contact-inputs" required>
+            <input type="email" name="email" placeholder="Your Email" class="contact-inputs" required>
+            <textarea name="message" placeholder="Your Message" class="contact-inputs" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+        
+    </div>
+    
+</body>
+</html>
